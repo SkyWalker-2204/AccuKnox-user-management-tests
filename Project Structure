@@ -1,0 +1,16 @@
+AccuKnox-user-management-tests/
+├── pages/
+│ ├── init.py
+│ ├── login_page.py # Login page actions
+│ └── admin_page.py # User Management actions
+├── tests/
+│ ├── init.py
+│ └── test_user.py # E2E test cases
+├── utils/
+│ ├── init.py
+│ └── test_reporter.py # QA report generator
+├── reports/ # Auto-generated reports
+├── conftest.py # Pytest fixtures
+├── pytest.ini # Pytest configuration
+├── requirements.txt # Dependencies
+└── README.md # This file
